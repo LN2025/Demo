@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T10:37:53Z" name="Suite" finished-at="2024-10-24T10:38:15Z" duration-ms="22360">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T10:37:53Z" name="Test" finished-at="2024-10-24T10:38:15Z" duration-ms="22360">
+      <class name="DemoClass">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:07:53Z" name="driverSetup" finished-at="2024-10-24T16:08:01Z" duration-ms="7680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:08:01Z" name="myTest" data-provider="dp" finished-at="2024-10-24T16:08:04Z" duration-ms="2781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:08:04Z" name="closeBrowser" finished-at="2024-10-24T16:08:06Z" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:08:06Z" name="driverSetup" finished-at="2024-10-24T16:08:13Z" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:08:13Z" name="myTest" data-provider="dp" finished-at="2024-10-24T16:08:15Z" duration-ms="2662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:DemoClass@36c88a32]" started-at="2024-10-24T16:08:15Z" name="closeBrowser" finished-at="2024-10-24T16:08:15Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- DemoClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
